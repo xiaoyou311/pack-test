@@ -1,15 +1,19 @@
 {
     "name": "xiaotudou/packtest",
-    "description": "依测试",
+    "description": "测试2",
     "type": "library",
-    "require": {
-        "ext-redis": "^4.3"
-    },
+    "license": "MIT",
     "authors": [
         {
             "name": "xiaotudou",
             "email": "futuyou@163.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "xiaotudou\\packtest\\":"src/"
+         }	
+    }
 }
