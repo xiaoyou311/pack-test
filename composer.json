@@ -1,0 +1,15 @@
+{
+    "name": "xiaotudou/packtest",
+    "description": "依测试",
+    "type": "library",
+    "require": {
+        "ext-redis": "^4.3"
+    },
+    "authors": [
+        {
+            "name": "xiaotudou",
+            "email": "futuyou@163.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
